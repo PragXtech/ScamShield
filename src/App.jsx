@@ -54,7 +54,7 @@ function App() {
 
     try {
       const response = await fetch(
-        'http://localhost:5000/api/ai-scan',
+        'https://scamshield-8vlu.onrender.com/api/ai-scan',
         {
           method: 'POST',
           headers: {
