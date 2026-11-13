@@ -1,0 +1,40 @@
+
+:root {
+  font-family: Inter, Arial, sans-serif;
+  color: #f1f5f9;
+  background: #080e1c;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  display: block;
+  margin: 0;
+  color: #f1f5f9;
+  background: #080e1c;
+}
+
+#root {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+h1, h2, h3, p, span, label {
+  color: inherit;
+}
