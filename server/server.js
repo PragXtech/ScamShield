@@ -3,7 +3,7 @@ const express = require('express')
 const cors = require('cors')
 
 const app = express()
-const PORT = 5000
+ 
 
 app.use(cors())
 app.use(express.json({ limit: '20kb' }))
@@ -285,6 +285,8 @@ ${text}
     });
   }
 });
+const PORT = process.env.PORT || 5000;
+
 app.listen(PORT, () => {
-  console.log(`Scam Shield backend running at http://localhost:${PORT}`)
-})
+  console.log(`Scam Shield backend running on port ${PORT}`);
+});
